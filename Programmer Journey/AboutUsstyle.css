@@ -1,0 +1,139 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(252, 222, 170, 0.26);
+}
+
+    header ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        header ul li {
+            list-style: none;
+            margin-left: 90px;
+            margin-top: 5px;
+            font-size: 25px;
+        }
+
+            header ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-family: Arial;
+                font-weight: bold;
+                transition: 0.4s ease-in-out;
+                font-family: cursive;
+            }
+
+                header ul li a:hover {
+                    color: #FECF6A;
+                }
+
+body {
+    font-family: cursive;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("./img/tt2.jpg");
+    background-size: cover;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: #FECF6A;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+    button:hover {
+        background: #FECF6A;
+    }
+
+.grade-type div {
+    display: flex;
+    margin: 6px 0;
+}
+
+@media (min-width: 568px) {
+    .info {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .info-item {
+        width: 48%;
+    }
+}
+figure {
+    margin: 176px 56px 17px 62px;
+    text-align:center;
+    color: #ead8ca;
+    font-size: larger;
+}
+p{
+    font-size: 124%;
+    text-align:center;
+    margin: 1%
+}
+h2{
+    text-decoration: none;
+    text-align: center;
+    color: #FECF6A;
+    font-family: cursive;
+    font-size: 30px;
+}
+body{
+    color:white;
+    text-align:left;
+}
+div{
+   display: inherit;
+}
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+}
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    background: #FECF6A;
+    padding: 0.6rem 2.6rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #111;
+    font-family: cursive;
+    font-weight: 700;
+  }
+    
+  .button:hover
+      {
+        background-color: #463e2d;
+          color: #fff;
+          transition: 1s;
+          font-weight: 700;
+  }
+  figcaption {
+      font-size: 25px;
+  }

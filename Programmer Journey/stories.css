@@ -1,0 +1,306 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hed
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(252, 222, 170, 0.26);
+}
+.hed ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hed ul li{
+  list-style: none;
+  margin-left: 90px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.hed ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  font-family: cursive;
+}
+.one ul li a:hover{
+  color: #2c1703;
+}
+.two ul li a:hover{
+  color: #c71e08;
+}
+.three ul li a:hover{
+  color: #1b1915;
+}
+.four ul li a:hover{
+  color: #104610;
+}
+.five ul li a:hover{
+  color: #0c054d;
+}
+
+.stories1 {
+    color: white;
+    background: radial-gradient(rgb(115, 77, 38), rgb(22, 22, 22));
+}
+
+body
+{
+  font-family: cursive;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.Najwan,
+.Marwa,
+.Retaj,
+.Amjad {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.her {
+  overflow: hidden;
+  height: 500px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+}
+
+.her img {
+  height: 500px;
+  transition: transform 0.3s ease-out;
+  cursor: pointer;
+}
+.her a {
+  display: flex;
+}
+.OurNames {
+    width: 400px;
+    height: 500px;
+}
+.OurNames:hover {
+        width: 500px;
+        height: 600px;
+        transition: 0.9s ease;
+    }
+
+.members {
+    grid-column: 2/3;
+    align-self: end;
+}
+
+    .members h1 {
+        font-size: 64px;
+        font-family: cursive;
+    }
+    .members h2 {
+        font-size: 42px;
+        padding: 20px 0px;
+    }
+    .members p {
+        font-size: 24px;
+        padding: 20px 0px 50px 0px;
+    }
+
+.pages {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pages div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pages h3 {
+  font-size: 24px;
+  padding: 30px;
+}
+
+.pages svg {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(2);
+}
+.pages svg:hover {
+  animation: dot 0.5s ease-in-out infinite alternate;
+}
+
+.pages svg.active {
+  opacity: 1;
+}
+
+@keyframes dot {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(4);
+  }
+}
+
+.banner {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.author {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.author h1 {
+  font-size: 42px;
+}
+.author h3 {
+  padding: 10px 0px;
+  font-size: 32px;
+}
+
+.story,
+.my-work {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 80px 0px;
+}
+.story-description,
+.work-description {
+  width: 50%;
+}
+.story-description h3,
+.work-description h3 {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+.story-description p,
+.work-description p {
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+}
+.work-gallery img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+  }
+  .her {
+    grid-column: 2/3;
+    height: auto;
+  }
+  .her img {
+    height: 500px;
+  }
+    .members {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .members h1 {
+        font-size: 48px;
+    }
+    .members h2 {
+        font-size: 38px;
+    }
+  .story,
+  .my-work {
+    flex-direction: column;
+  }
+  .story-description,
+  .work-description {
+    width: 100%;
+  }
+  .work-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .profile {
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .her img {
+    height: 400px;
+  }
+    .members h1 {
+        font-size: 38px;
+    }
+    .members h2 {
+        font-size: 28px;
+    }
+}
+
+.contact {
+  grid-column: 2/3;
+   text-decoration: none;
+}
+.nav-open h3 {
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+.nav-open p {
+  font-size: 18px; 
+}
+.nav-open a {
+  font-size: 18px;
+  display: inline-block;
+   text-decoration: none;
+}
+.social-links img {
+  padding: 30px 10px;
+  display: inline-block;}
+
+.logo {
+  z-index: 2;
+}

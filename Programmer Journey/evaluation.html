@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evaluating</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="./evaluation.css"/>
+  </head>
+  <body>
+    <header>
+      <ul>
+          <li><a href="./welcome.html">Welcome</a></li>
+          <li><a href="./stories.html">Stories</a></li>
+          <li><a href="./aboutus.html">About us</a></li>
+          <li><a href="./evaluation.html">Evaluation</a></li>
+      </ul>
+  </header>
+    <div class="main-block">
+      <h1>
+        Programmers Journey website
+      </h1>
+      <form role="form" method="post" id="reused_form">
+        <div class="info">
+          <div class="info-item">
+            <label class="icon" for="name"><i class="fas fa-user"></i></label>
+            <input type="text" name="name" id="name" placeholder="Name" required/>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="email"><i class="fas fa-envelope"></i></label>
+            <input type="text" name="email" id="email" placeholder="Email" required/>
+          </div>
+        </div>
+        <div class="grade-type">
+          <h3>Rate Our Website</h3>
+          <div> 
+            <input type="radio" value="e" id="radioOne" name="grade" checked/>
+            <label for="radioOne" class="radio">Excellent</label>
+          </div>
+          <div>
+            <input type="radio" value="v" id="radioTwo" name="grade" />
+            <label for="radioTwo" class="radio">Very Good</label>
+          </div>
+          <div>
+            <input type="radio" value="g" id="radioThree" name="grade" />
+            <label for="radioThree" class="radio">Good</label>
+          </div>
+          <div>
+            <input type="radio" value="r" id="radioFour" name="grade" />
+            <label for="radioFour" class="radio">Bad</label>
+          </div>
+          <div>
+            <input type="radio" value="vb" id="radioFive" name="grade" />
+            <label for="radioFive" class="radio">Very Bad</label>
+          </div>
+        </div>
+        <h3>Your feedback matters to us :</h3>
+        <textarea type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+        <button type="submit" class="btn" >submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>

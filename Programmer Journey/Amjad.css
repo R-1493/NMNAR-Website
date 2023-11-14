@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+@font-face {
+    font-family: cursive;
+    src: url("./fonts/Poppins-Light.ttf");
+  }
+  @font-face {
+    font-family: cursive;
+    src: url("./fonts/Poppins-Regular.ttf");
+  }
+  .footer {
+    text-align: center;
+    background-color: rgb(29, 42, 88);
+    color: #fff;
+    padding: 1.5rem 0;
+  font-size: 16px;
+  font-weight: 700;
+  }
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(29, 42, 88, 0.7);
+  }
+  
+  header ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 25px;
+  }
+  header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  header ul li a:hover{
+    color: #909cd4;
+  }
+  body{
+    color: #4D587E;
+    background-color: #D7DBEC75;
+    width: 100%;
+  }
+  .banner {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+  }
+  .banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.author {
+  top: 30%;
+  left: 590px;
+  position: absolute;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(1,1,1);
+}
+.author h1 {
+  font-size: 42px;
+}
+.author h3 {
+  padding: 10px 0px;
+  font-size: 32px;
+}
+.amjadmain{
+    width: 100%;
+}
+.amjadimg {
+    border: 1.5px solid #7e8a93;
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px;
+    width: 25rem;   
+    height: 450px;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+.amjadimg:hover {
+    box-shadow: 0 0 2px 2px #4D587E;
+}
+.amjadstory{
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+.amjadstory h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.amjadstory p{
+    font-size: 25px;
+}
+.Hobbies{
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+.Hobbies h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.Hobbies ol{
+    font-size: 25px;
+    margin-left: 2rem;
+}
+.mytable{
+    margin-left: 29rem;
+}
+.mytable caption{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #2f3f7a;
+}
+.mytable th{
+    font-size: 20px;
+}
+.mytable img:hover {
+    transform: scale(1.25);
+    backface-visibility: hidden;
+    transition: 3s;
+    height: 40rem;
+    box-shadow: 0 6px 12px rgba(85,85,85, 0.5);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.part1{
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.part1 h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.part1 ul{
+    font-size: 25px;
+    margin-left: 2rem;
+}
+.part2{
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.part2 h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.part2 p{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+.part2 ol{
+    font-size: 25px;
+    margin-left: 2rem;
+}
+.part2 ol li{
+    margin-bottom: 2rem;
+}
+.part2 ol li a :hover{
+    color:#6a4c7c;
+}
+.btn {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #3c4975;
+    padding: 0.6rem 2.6rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    font-weight: 700;
+  }
+    
+  .btn:hover
+      {
+          background: #6575b1;
+          transition: 1s;
+          font-weight: 700;
+  }

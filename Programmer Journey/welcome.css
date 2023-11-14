@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background : linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)),url("./img/tt2.jpg");
+  background-size: cover;
+  
+}
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(252, 222, 170, 0.26);
+}
+
+header ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  margin-left: 90px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  font-family: cursive;
+}
+header ul li a:hover{
+  color: #FECF6A;
+}
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 9.3rem;
+    text-align: center;
+}
+.showcase-content h1 {
+  font-size: 80px;
+  color :#FECF6A;
+  font-family: cursive;
+  line-height: 1.2;
+  padding: 1rem 0;
+}
+.showcase-content p{
+  font-size: 25px;
+  color: #fff;
+  font-family: cursive;
+  line-height: 1.2;
+  padding: 3rem 0;
+  }
+  
+.button {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #463e2d;
+  padding: 0.6rem 2.6rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #fff;
+  color: #fff;
+  font-family: cursive;
+  font-weight: 700;
+}
+  
+.button:hover
+    {
+        background: #FECF6A;
+        color: #111;
+        transition: 1s;
+        font-weight: 700;
+}
+.welcomefooter {
+  text-align: center;
+    background-color: rgba(180, 140, 71, 0.26);    
+    color: #fff;
+    padding: 1.5rem 0;
+    font-size: 16px;
+  font-weight: 700;
+}
+.demo
+{
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1rem 0;
+}

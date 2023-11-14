@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./AboutUsstyle.css" />
+    <title>About Us</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="./welcome.html">Welcome</a></li>
+            <li><a href="./stories.html">Stories</a></li>
+            <li><a href="./aboutus.html">About us</a></li>
+            <li><a href="./evaluation.html">Evaluation</a></li>
+        </ul>
+    </header>
+    <article>
+        <figure>
+            <img src="./img/Figure.jpg" style="width: 200px; height: 200px;" />
+            <figcaption>We are friends since the first day in the university </figcaption>
+        </figure>
+    </article>
+        <h2>Favorites Moments For Us</h2>
+
+<p id="Moments"></p>
+
+<script>
+const nmnar = ["Watching Anime", "Drink coffee together", "learn new things",
+              "Attend courses together", "photography"];
+
+let text = "";
+for (let i = 0; i < nmnar.length; i++) {
+  text += nmnar[i] + "<br>";
+}
+
+document.getElementById("Moments").innerHTML = text;
+</script>
+<div class="showcase-content">
+    <a href="https://drive.google.com/drive/folders/1ruXmFSiTVeup8UNgVRIRLRLRxV2s5IAn?usp=sharing" class="button">Our previous projects</a>
+</div>
+</body>
+
+</html>

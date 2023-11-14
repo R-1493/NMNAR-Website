@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+      <link href="./Retaj.css"rel="stylesheet">
+      <title>Retaj Programmer</title>
+  </head>
+  <body>
+      <header>
+          <ul>
+              <li><a href="./welcome.html">Welcome</a></li>
+              <li><a href="./stories.html">Stories</a></li>
+              <li><a href="./aboutus.html">About us</a></li>
+              <li><a href="./evaluation.html">Evaluation</a></li>
+          </ul>
+      </header>
+      <div class="banner">
+          <img src="./img/fern.jpeg" alt="" />
+          <div class="author">
+              <h1>Retaj Alharbi</h1>
+              <h3>Programmer</h3>
+          </div>
+      </div>
+      <div class="story">
+          <div class="story-description">
+            <h3>My Story</h3>
+            <p>
+              at the beginning of 2018, when the majors were opened, i was confused as i could not find the major
+              i wanted, which is architecture, so i decided to look for the most sought-after majors in vision 2030.<br>
+              I found that the most in-demand specialty in the career field is computer science . 
+          </div>
+          <div class="slider">
+              <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                  <img src="./img/toffee.jpeg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./img/toffee-art.jpeg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./img/caramel.jpeg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./img/caramel-art.jpeg" alt="">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                  <div class="auto-btn1"></div>
+                  <div class="auto-btn2"></div>
+                  <div class="auto-btn3"></div>
+                  <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+              </div>
+              <!--manual navigation start-->
+              <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+              </div>
+              <!--manual navigation end-->
+            </div>
+          </div>
+          <section class="our-story">            
+              <div class="full-story">
+                  <div class="story__part-1">
+                      <div class="text--section">
+                          <h3>My Start</h3>
+                          <p> <span>at the beginning of the years, i could not see myself in the specialty , but my vision changed after practical
+                            and meeting good docters thinks to Allah .</span> 
+                          </p>
+                      </div>
+                      <div class="cover__img">
+                          <img src="./img/monstera.jpg" alt="cover photo">
+                      </div>
+                  </div>
+                  <div class="story__part-2">
+                      <div class="cover__img">
+                          <img src="./img/indoorplant.png" alt="cover photo">
+                      </div>
+                      <div class="text--section">
+                          <h3> my goal </h3>
+                          <p>
+                           1. live in a green house. <br>
+                           2. learning as much as i can.  <br>
+                           3. adopt another cat. <br>
+                           4. back to drawing. 
+                          </p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <script type="text/javascript">
+              var counter = 1;
+              setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 4){
+                  counter = 1;
+                }
+              }, 5000);
+          </script>
+          <footer class="Footer">
+            <p>Contant: retajharbi319@gmail.com </p>
+          </footer>
+  </body>
+  </html>
