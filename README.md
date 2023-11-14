@@ -2,8 +2,4 @@
 
 # THE DEMO
 
-<div style="position:relative;width:fit-content;height:fit-content;">
-            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/cqsoKJrBuhr?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                <img loading="lazy" style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
-            </a>
-</div>
+https://github.com/R-1493/NMNAR-Website/assets/81806399/56e6d268-90a5-4b1c-8c5c-f87849df2b9b
